@@ -7,7 +7,7 @@ Code for miRacle paper
 2. Update DATA_DIR in `config.py` to the path to the above folder
 3. Put your raw images in the Images/Raw folder (a sample file is provided)
 4. Requirements:
-   * For the Image_Processing notebook, install all the requirements in the [miRacle.yml] file (recommended with conda).
+   * For the Image_Processing notebook, install all the requirements in the miRacle.yml file (recommended with conda).
    * For the other notebooks, only standard Python libraries are required.
 
 ## Image processing:
