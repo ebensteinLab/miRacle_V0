@@ -20,3 +20,8 @@ Because of file sizes of the larger crops, the inputs for V_TIMDER are not provi
 ## Data analysis:
 Follow the Data_Analysis notebook to train a PCA+SVM model or use an existing one (provided) to classify the crops to noise or one of the three miR types.
 The inputs for this notebook are provided.
+
+## Matlab code for PSF simulations:
+Copy the Matlab code folder (and rename it if you wish) to your Matlab path folder. 
+For PSF simulations run the PSFSIMMiRacle.m code. If other fluorophores are used obtain their spectra from Semrock's spectra viewer tool (https://searchlight.idex-hs.com/) and place the data in the FluorophoresSpectra subfolder. If a different prism or dispersion curve is used, create a pixel to wavelength calibration cfit instead of the one provided in PixWLCalibration.mat (we used Poly3 fit with 4 coefficients to represent the pixel to wavelength diseprsion curve).
+The appropriate filters transmission spectra should be placed in the FilterSpectra subfolder (with the same data file properties as the spectra information downloaded from the Semrock searchlight spectra viewer).
